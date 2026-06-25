@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Play Toss Club</title>
+</head>
+<body style="text-align:center;font-family:Arial">
+<h1>🎲 Play Toss Club</h1>
+<button onclick="toss()">Play Toss</button>
+<h2 id="r"></h2>
+
+<script>
+function toss(){
+let x=Math.random()<0.5?"HEADS":"TAILS";
+document.getElementById("r").innerHTML=x;
+}
+</script>
+</body>
+</html>
